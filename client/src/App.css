@@ -1,0 +1,8 @@
+.app_wrapper{
+    background-color: rgb(56, 7, 61);
+    display: flex;
+}
+
+.app_wrapper Chat{
+    display: flex;
+}

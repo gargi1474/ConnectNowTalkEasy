@@ -1,0 +1,11 @@
+.channel-search_input_wrapper{
+    display: flex;
+}
+.channel-search_input_wrapper input{
+    width: 100%;
+    height: 30px;
+    align-content: center;
+    padding: 0.1rem;
+    border: 2px solid purple;
+    border-radius: 6px;
+}
