@@ -3,6 +3,7 @@ import {StreamChat} from 'stream-chat';
 import {Chat} from 'stream-chat-react';
 import Cookies from 'universal-cookie';
 import './App.css';
+//import 'stream-chat-react/dist/css/index.css';
 
 
 import {ChannelListContainer, ChannelContainer, Auth} from './components';
@@ -37,13 +38,16 @@ const App = () => {
   
     return (
     <div className='app_wrapper'>
-        <Chat client={client} theme='team light'>
+        <Chat client={client} >
+          <div className="ChannelListContainer">
             <ChannelListContainer
             isCreating={isCreating}
             setIsCreating={setIsCreating}
             setCreateType={setCreateType}
             setIsEditing={setIsEditing}
             />
+          </div>
+          <div className="ChannelContainer">
             <ChannelContainer 
             isCreating={isCreating}
             setIsCreating={setIsCreating}
@@ -51,6 +55,7 @@ const App = () => {
             setIsEditing={setIsEditing}
             createType={createType}
             />
+          </div>
           
         </Chat>
 

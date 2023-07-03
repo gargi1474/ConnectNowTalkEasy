@@ -1,0 +1,8 @@
+.team-channel-header__container{
+    display: flex;
+    width: 100%;
+    
+}
+.team-channel-header__right{
+    margin-left: auto!important;
+}

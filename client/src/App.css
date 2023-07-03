@@ -1,8 +1,18 @@
 .app_wrapper{
-    background-color: rgb(56, 7, 61);
+    
     display: flex;
 }
 
 .app_wrapper Chat{
     display: flex;
+}
+.ChannelContainer{
+    background-color: rgb(56, 7, 61);
+    width: 100%;
+    padding: 1rem;
+    
+}
+.ChannelListContainer{
+    width: 350px;
+    background-color: black;
 }
