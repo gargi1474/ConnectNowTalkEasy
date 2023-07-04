@@ -20,9 +20,9 @@ const UserItem = ({ user, setSelectedUsers }) => {
 
   const handleSelect = () => {
     if(selected) {
-        //setSelectedUsers((prevUsers) => prevUsers.filter((prevUser) => prevUser !== user.id))
+        setSelectedUsers((prevUsers) => prevUsers.filter((prevUser) => prevUser !== user.id))
     } else {
-        //setSelectedUsers((prevUsers) => [...prevUsers, user.id])
+        setSelectedUsers((prevUsers) => [...prevUsers, user.id])
     }
 
     setSelected((prevSelected) => !prevSelected)
