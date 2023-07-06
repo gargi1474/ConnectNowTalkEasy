@@ -26,8 +26,8 @@ const SideBar = ({ logout }) => (
 
 const CompanyHeader = () => (
     <div className="channel-list_header">
-        <p className='channel-list_header_text'>
-            Stream Chat App
+        <p className='channel-list_header_text' style={{color:'grey'}}>
+            <b>Stream Chat App</b>
         </p>
     </div>
 )
