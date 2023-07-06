@@ -1,6 +1,5 @@
 import React from 'react';
 import { Channel, MessageSimple} from 'stream-chat-react';
-import './All_css_files/ChannelContainer.css'
 
 import { ChannelInner, CreateChannel, EditChannel, TeamMessage } from './';
 
