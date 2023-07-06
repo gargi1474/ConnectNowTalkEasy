@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import { ChannelList, useChatContext } from 'stream-chat-react';
 import Cookies from 'universal-cookie';
 import './All_css_files/ChannelListContainer.css';
-
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
 import icon1 from '../assets/icon1.png';
 import logouticon from '../assets/logout.png';
