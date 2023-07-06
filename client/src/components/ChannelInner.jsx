@@ -69,7 +69,7 @@ const TeamChannelHeader = ({ setIsEditing }) => {
   
       return (
         <div className='team-channel-header__channel-wrapper'>
-          <p className='team-channel-header__name'># {channel.data.name}</p>
+          <p className='team-channel-header__name' style={{color:'grey', fontSize:'20px'}}># <b>{channel.data.name}</b></p>
           <span style={{ display: 'flex' }} onClick={() => setIsEditing(true)}>
             <ChannelInfo />
           </span>
@@ -87,7 +87,7 @@ const TeamChannelHeader = ({ setIsEditing }) => {
       <div className='team-channel-header__container'>
         <MessagingHeader />
         <div className='team-channel-header__right'>
-          <p className='team-channel-header__right-text'>{getWatcherText(watcher_count)}</p>
+          <p className='team-channel-header__right-text' style={{color:'grey'}}>{getWatcherText(watcher_count)}</p>
         </div>
       </div>
     );
