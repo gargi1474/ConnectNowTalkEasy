@@ -17,9 +17,7 @@
     background-color: black;
     display: flex;
 }
-/* .str-chat__channel-list {
-    display: contents;
-} */
+
 .str-chat__channel-list.str-chat__channel-list-react{
     height: fit-content;
     width: 100%;
